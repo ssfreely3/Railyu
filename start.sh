@@ -1,7 +1,7 @@
 #!/bin/sh
 
-UUID=5aaed9b7-7fe3-47c3-bb52-db59859ce198
-WebPage=https://bing.com
+UUID=a8bacabb-1003-433c-9622-6c2d9aec2234
+WebPage=https://github.com/wulabing/3DCEList/archive/master.zip
 CaddyConfig=https://raw.githubusercontent.com/bsefwe/Rail/main/etc/Caddyfile
 XRayConfig=https://raw.githubusercontent.com/bsefwe/Rail/main/etc/xray.json
 Xray_Newv=`wget --no-check-certificate -qO- https://api.github.com/repos/XTLS/Xray-core/tags | grep 'name' | cut -d\" -f4 | head -1 | cut -b 2-`
